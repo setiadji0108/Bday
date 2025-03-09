@@ -1278,13 +1278,17 @@ audio {
 	display: none;
 }
 .message p {
-	font-family: 'Signika', sans-serif;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #C4515C;
-	text-shadow: 2px 2px 2px #FFF;
-	display: none;
-	font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white; /* Warna utama teks */
+    text-shadow: 
+        -2px -2px 0 black,  
+        2px -2px 0 black,  
+        -2px 2px 0 black,  
+        2px 2px 0 black; /* Efek outline hitam */
+    display: none;
+    font-weight: bold;
 }
 
 .btn-primary {
